@@ -1,6 +1,6 @@
 {
   "name": "scope-eval",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "scope_eval.js",
   "scripts": {
     "prepublish": "coffee -c scope_eval.coffee"

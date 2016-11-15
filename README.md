@@ -6,7 +6,7 @@ Example:
 ```javascript
 scopeEval = require('scope-eval')
 
-scopeEval("return a + b + c", {
+scopeEval("a + b + c", {
   a: 1,
   b: 2,
   c: 3

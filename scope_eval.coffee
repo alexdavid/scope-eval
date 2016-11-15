@@ -7,4 +7,4 @@ module.exports = (source, scope) ->
     keys.push key
     values.push value
 
-  Function(keys..., source).apply scope.this, values
+  Function(keys..., "return eval(#{JSON.stringify source})").apply scope.this, values
